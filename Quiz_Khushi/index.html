@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Online_Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="main">
+    <header class="header">
+      <a href="@" class="logo">Online_Quiz
+        <h6 class="h6">presented by Khushi.</h6>
+      </a>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#service">Service</a>
+        <a href="#contact">Contact</a>
+        <a href="#rules">Rules</a>
+      </nav>
+
+    </header>
+
+    <div class="container">
+      <section class="quiz-section">
+        <div class="quiz-box">
+          <h1>Basic Quiz</h1>
+          <div class="quiz-header">
+            <span>Attend with full attention.</span>
+            <span class="header-score">Score: 0 / 5 </span>
+          </div>
+          <h2 class="question-text">What does CPU stand for?</h2>
+          <div class="option-list"></div>
+          <div class="timer">
+            <span>Time Left: </span><span class="time-left">15</span>s
+          </div>
+          <div class="progress-bar">
+            <div class="progress-bar-fill"></div>
+          </div>
+          <div class="quiz-footer">
+            <span class="question-total">1 of 5 Questions</span>
+            <button class="next-btn">Next</button>
+          </div>
+        </div>
+
+        <!-- ✅ Result Box -->
+        <div class="result-box">
+          <h2>Quiz Completed!</h2>
+          <p class="final-score">Your Score: 0 / 5</p>
+          <button class="restart-btn">Restart Quiz</button>
+          <button class="home-btn">Go Home</button>
+
+          <div class="leaderboard-section">
+            <h2>Leaderboard</h2>
+            <ul class="leaderboard-list"></ul>
+          </div>
+
+          <div class="share-buttons">
+            <a class="share-btn share-btn-whatsapp" target="_blank">Share on WhatsApp</a>
+            <a class="share-btn share-btn-facebook" target="_blank">Share on Facebook</a>
+            <a class="share-btn share-btn-instagram" target="_blank">Share on Instagram</a>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="info-section">
+  <h2>About This Quiz</h2>
+  <p>
+    Welcome to Khushi's Online Quiz Platform! This platform is designed to test your knowledge interactively and engagingly. Whether you're preparing for exams or brushing up your skills, this site makes learning fun.
+  </p>
+</section>
+
+<section id="service" class="info-section">
+  <h2>Our Services</h2>
+  <ul>
+    <li>📚 Multiple-choice quizzes across subjects</li>
+    <li>📈 Real-time scoring and feedback</li>
+    <li>🏆 Leaderboard to track top performers</li>
+    <li>📤 Social media sharing of results</li>
+  </ul>
+</section>
+
+<section id="contact" class="info-section">
+  <h2>Contact Us</h2>
+  <p>
+    We'd love to hear from you! For feedback or queries, reach out to us at:<br/>
+    📧 <a href="mailto:khushi.quizweb@gmail.com">khushi.quizweb@gmail.com</a>
+  </p>
+</section>
+
+<section id="rules" class="info-section">
+  <h2>Quiz Rules</h2>
+  <ol>
+    <li>One attempt per question. No going back.</li>
+    <li>15 seconds to answer each question.</li>
+    <li>No cheating — use your own brain 🧠.</li>
+    <li>Fair play ensures leaderboard accuracy.</li>
+  </ol>
+</section>
+
+
+
+      <section class="home">
+        <div class="home-content">
+          <h1>QUIZ WEBSITE</h1>
+          <p>Get ready to challenge yourself! Stay focused, trust your instincts, and aim high. Click below when you're
+            ready — your quiz fun adventure starts now!</p>
+          <button class="start-btn">Let's Go</button>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <div class="popup-info">
+    <h2>QUIZ GUIDELINE</h2>
+    <span class="info">1. Read each question carefully before selecting your answer.</span><br />
+    <span class="info">2. You cannot go back to previous questions once answered.</span><br />
+    <span class="info">3. Each question has only one correct answer.</span><br />
+    <span class="info">4. Time is limited, so manage it wisely.</span><br />
+    <span class="info">5. No external help or cheating allowed — play fair and learn!</span><br />
+    <div class="btn-gr">
+      <button class="btn-info exit-btn">Exit Quit</button>
+      <button class="btn-info continue-btn">Continue</button>
+    </div>
+  </div>
+
+  <script src="question.js"></script>
+  <script src="script.js"></script>
+</body>
+
+
+</html>
